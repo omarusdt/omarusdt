@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="title" content="Dmail" />
+  <meta name="description" content="Dmail" />
+  <meta name="referrer" content="never" />
+  <meta name="referrer" content="no-referrer" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+  <title>Dmail</title>
+  <!-- Sending Network -->
+  <script src="/sdnChatWidget.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EHCG0TMP4M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EHCG0TMP4M');
+  </script>
+     
+  <script type="module" crossorigin src="/assets/index-8155044e.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/quill-c10a13a7.js">
+  <link rel="modulepreload" crossorigin href="/assets/tools-f1c554c9.js">
+  <link rel="modulepreload" crossorigin href="/assets/dfinity-9e886be7.js">
+  <link rel="modulepreload" crossorigin href="/assets/react-7b612fad.js">
+  <link rel="modulepreload" crossorigin href="/assets/mui-7fe449b8.js">
+  <link rel="modulepreload" crossorigin href="/assets/sei-50be153e.js">
+  <link rel="modulepreload" crossorigin href="/assets/ethers-5fed531d.js">
+  <link rel="modulepreload" crossorigin href="/assets/others-d044393c.js">
+  <link rel="modulepreload" crossorigin href="/assets/mixed-71fed108.js">
+  <link rel="stylesheet" href="/assets/index-bed6ae18.css">
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  
+  <!-- Sending Network -->
+  <chat-component baseUrl="https://portal0101.sending.network/" useThirdLogin="false" defaultshowwidget="false" style="display: none;position: fixed; right: 20px;bottom: 20px; z-index: 1000;" />
+<script>(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'87be72f77d84701f',t:'MTcxNDM4NDg3MC4wNzQwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+
+</html>
